@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --green:#21B573;
+    --lightgreen:#F0FFF0;
+    --orange:#FD511A;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    transition: .5s ease-in;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #eee;
+    color: #111;
+    font-family: Poppins;
+    
+}
+button{
+    background-color:var(--green);
+    padding: 1.5vh 3vw ;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+
+}
+
+body > section{
+    height: 100vh;
+}
+
+
+body > section:nth-child(1){
+    background-color: var(--lightgreen);
+}
+
+body > section:nth-child(1) > nav{
+    display: grid;
+    grid-template-columns: 20% 20% 12% 12% 12% 12% 12%;
+    padding: 2.5vh 0;
+    width: 90vw;
+    margin: auto auto;
+    
+}
+
+body > section:nth-child(1) > nav > div:nth-child(1):hover{
+    background-color:none;
+    }
+    body > section:nth-child(1) > nav > div:nth-child(2):hover{
+
+    }
+
+body > section:nth-child(1) > nav > div:nth-child(1) > img{
+    width: 10vw;
+    
+}
+
+
+body > section:nth-child(1) > nav > div{
+    display: grid;
+    place-content:center;
+    height: 10vh;
+  
+
+}
+
+body > section:nth-child(1)  > div{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw ;
+    margin: auto auto;
+}
+ 
+body > section:nth-child(1) > nav > div:hover{
+   
+    background-color:var(--green);
+    
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+
+}
+
+body > section:nth-child(1)  > div > div{
+    display:grid;
+    place-content: center;
+  
+    height: 70vh;
+}
+
+body > section:nth-child(1)  > div > div:nth-child(2) > img{
+    width: 40vw;
+
+}
+
+body > section:nth-child(1) > div > div:nth-child(1) > p:nth-child(1){
+    color: var(--orange);
+}
+body > section:nth-child(1) > div > div:nth-child(1) > h1 {
+    font-size: 48px;
+}
+body > section:nth-child(1) > div > div:nth-child(1) > h1:nth-child(3)::after {
+    content: " Any schedule";
+    color: var(--green);
+}
+body > section:nth-child(1) > div > div:nth-child(1) > div {
+    padding: 6vh 0 0 0;
+
+}
+
+
+body > section > div > div:nth-child(1) > p:nth-child(4){
+    line-height: 36px;
+}
