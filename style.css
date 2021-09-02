@@ -47,11 +47,11 @@ body > section:nth-child(1) > nav{
 }
 
 body > section:nth-child(1) > nav > div:nth-child(1):hover{
-    background-color:none;
-    }
-    body > section:nth-child(1) > nav > div:nth-child(2):hover{
-
-    }
+    background-color: transparent;
+}
+body > section:nth-child(1) > nav > div:nth-child(2):hover{
+   background-color: transparent;
+}
 
 body > section:nth-child(1) > nav > div:nth-child(1) > img{
     width: 10vw;
@@ -63,7 +63,7 @@ body > section:nth-child(1) > nav > div{
     display: grid;
     place-content:center;
     height: 10vh;
-  
+  border-radius: 30px;
 
 }
 
