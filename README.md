@@ -1,2 +1,2 @@
 # eschool
-fahim rr foroz site
+Demo of a online learning platform's website.
